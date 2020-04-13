@@ -1,0 +1,248 @@
+* {
+  font-family: 'Montserrat', sans-serif; }
+  * h2, * h3 {
+    font-weight: 600; }
+  * p {
+    font-size: 15px; }
+  * .btn {
+    box-shadow: 1px -1px 10px -5px black;
+    border: 2px solid #43cb83; }
+  * .btn:hover {
+    box-shadow: none;
+    color: #43cb83 !important;
+    background: white !important; }
+
+/*      <!-- NAVIGRATION -->      */
+#navSection {
+  box-shadow: 2px 2px 5px #43cb83;
+  background: black;
+  font-size: 14px; }
+  #navSection .navbar-toggler {
+    border-color: transparent !important; }
+  #navSection .nav-item {
+    font-weight: 500;
+    width: 60px;
+    text-align: center; }
+  #navSection .nav-item:nth-child(2),
+  #navSection .nav-item:nth-child(6) {
+    width: 100px; }
+  #navSection .nav-item:nth-child(4) {
+    width: 90px; }
+  #navSection .nav-item:nth-child(6) {
+    width: 90px; }
+  #navSection .nav-item:hover {
+    border-bottom: 2px solid #43cb83; }
+  #navSection .nav-link:hover {
+    color: #43cb83; }
+  #navSection .nav-item:nth-child(6) {
+    border-bottom: none; }
+  #navSection .btn {
+    background: #f36b7f;
+    border: 2px solid #f36b7f;
+    color: white;
+    border-radius: 20px;
+    width: 95px; }
+  #navSection .btn:hover {
+    background: white;
+    color: #f36b7f !important; }
+
+/*      <!-- STUDY SECTION -->      */
+#studySection {
+  background: url(../img/study-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 93vh; }
+  #studySection .text {
+    margin: auto;
+    display: table;
+    margin-top: 15%;
+    color: #43cb83; }
+    #studySection .text h1 {
+      position: relative;
+      animation-name: leftToRight;
+      animation-duration: 1.5s; }
+    #studySection .text p {
+      color: #657882;
+      position: relative;
+      animation-name: rightToLeft;
+      animation-duration: 2.5s; }
+    #studySection .text .btn {
+      background: #43cb83;
+      color: white;
+      border-radius: 20px;
+      position: relative;
+      animation-name: bottomToTop;
+      animation-duration: 2s; }
+
+@keyframes leftToRight {
+  0% {
+    left: -545px; }
+  100% {
+    left: 0; } }
+
+@keyframes rightToLeft {
+  0% {
+    right: -635px; }
+  100% {
+    right: 0; } }
+
+@keyframes bottomToTop {
+  0% {
+    width: 0; }
+  100% {
+    width: 165px; } }
+
+/*      <!-- DEPARTMENT SECTION -->      */
+#departmentSection {
+  background: transparent; }
+  #departmentSection .box {
+    max-width: 250px;
+    margin: auto;
+    border-radius: 5px; }
+    #departmentSection .box img {
+      max-width: 65px;
+      max-height: 65px; }
+  #departmentSection .box-1 {
+    background: #f1e3fc; }
+  #departmentSection .box-2 {
+    background: #e3fcfa; }
+  #departmentSection .box-3 {
+    background: #fcf0e3; }
+  #departmentSection .box-4 {
+    background: #fceee3; }
+  #departmentSection .box-5 {
+    background: #f3fce3; }
+  #departmentSection .box-6 {
+    background: #e3f3fc; }
+
+/*      <!-- COURSE SECTION -->      */
+#courseSection .row {
+  margin-right: 0px !important; }
+
+#courseSection #course-info h2 {
+  color: #43cb83; }
+
+#courseSection #course-info #students {
+  color: #ffba00; }
+
+#courseSection #course-info #courses {
+  color: #ff5f72; }
+
+#courseSection #course-info #videos {
+  color: #43cb83; }
+
+/*      <!-- APPLY SECTION -->      */
+#applySection {
+  margin-top: 100px;
+  background: url(../img/apply.png);
+  background-size: cover;
+  background-position: center;
+  height: 350px; }
+  #applySection .apply-text span {
+    color: #ff5f72; }
+  #applySection .card {
+    max-width: 400px;
+    bottom: 120px; }
+    #applySection .card .form-group .form-control {
+      background: none;
+      border: none;
+      border-bottom: 1px solid #43cb83;
+      font-size: 14px;
+      border-radius: 0 !important; }
+    #applySection .card .form-group .form-control:focus {
+      box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25) !important; }
+    #applySection .card label {
+      font-size: 14px; }
+    #applySection .card .btn {
+      background: #43cb83;
+      color: white;
+      border-radius: 20px;
+      font-size: 15px; }
+
+/*      <!-- NEWS SECTION -->      */
+#newsSection {
+  margin-top: 100px; }
+  #newsSection .news-text h2 {
+    color: #43cb83; }
+  #newsSection .btn {
+    background: #43cb83;
+    color: white;
+    border-radius: 20px;
+    font-size: 15px; }
+
+/*      <!-- FOOTER SECTION -->      */
+#footerSection {
+  background: #252c3a;
+  font-size: 14px; }
+  #footerSection .footer-info .fa {
+    font-size: 20px;
+    color: #f36b7f; }
+  #footerSection .footer-info .fa:hover {
+    color: white; }
+  #footerSection input {
+    border: 1px solid #43cb83;
+    border-radius: 3px;
+    height: 37px; }
+  #footerSection .btn {
+    color: white;
+    font-weight: 500;
+    width: 43px;
+    height: 37px;
+    border: 1px solid #43cb83;
+    background: #43cb83;
+    color: white;
+    transition: .2s linear; }
+  #footerSection .btn:hover {
+    background: white;
+    color: black; }
+
+/*      <!-- COPYRIGHT SECTION -->      */
+#copyrightSection {
+  background: #1d232e; }
+
+/*      <!-- APPLY MODAL -->      */
+#applyModal .modal-header {
+  background: #f36b7f; }
+
+#applyModal .form-group .form-control {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #f36b7f;
+  font-size: 14px;
+  border-radius: 0 !important; }
+
+#applyModal .form-group .form-control:focus {
+  box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25) !important; }
+
+#applyModal label {
+  font-size: 14px; }
+
+#applyModal .btn {
+  background: #f36b7f;
+  border: 2px solid #f36b7f;
+  color: white;
+  border-radius: 20px;
+  font-size: 15px; }
+
+#applyModal .btn:hover {
+  color: #f36b7f !important; }
+
+/*      <!-- MEDIA QUERIES -->      */
+@media (max-width: 992px) {
+  #navSection .nav-item {
+    margin-left: 12%; } }
+
+@media (max-width: 768px) {
+  #applySection {
+    margin-top: 0;
+    margin-bottom: 400px; }
+  .card {
+    top: 55px; } }
+
+@media (max-width: 360px) {
+  #applySection {
+    margin-top: 0;
+    margin-bottom: 450px; }
+  .card {
+    top: 55px; } }
